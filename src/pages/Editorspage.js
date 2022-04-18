@@ -91,6 +91,16 @@ const Editorspage = () => {
       <div className="aside">
         <div className="asideinner">
           <div className="asideinner">
+            <a
+              className="calllink"
+              href="https://video-connect-79e81.web.app/"
+              target="_blank"
+            >
+              <div className="videocall">
+                <img className="videologo" src="/video-camera.png" alt="" />
+                <p>Let's start video call</p>
+              </div>
+            </a>
             <img className="asidelogo" src="/coding.png" alt="" />
           </div>
           <h3>Connected</h3>

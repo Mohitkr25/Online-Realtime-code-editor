@@ -82,12 +82,14 @@
   background: linear-gradient(-135deg, #444344, rgb(65, 88, 95));
   box-shadow: 0 4px 8px 0 rgba(49, 48, 48, 0.2);
   padding: 16px;
+  padding-top: 0px;
   color: white;
   display: flex;
   flex-direction: column;
 }
 .asideinner {
   flex: 1;
+
 }
 .clientList {
   display: flex;
@@ -109,6 +111,35 @@
   padding-bottom: 5px;
   margin-top: auto;
   height: 100px;
+}
+.videocall{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2px;
+  
+  justify-content: center;
+  box-shadow: 0px 20px 20px #0000002e;
+  border-radius: 1rem;
+  margin-bottom: 5px;
+}
+.videologo{
+  width: 15%;
+  height: 15%;
+  margin-top: 1rem;
+  margin-right: 5px;
+}
+.videocall p{
+  font-weight: bold;
+  color: rgb(243, 245, 125);
+  border: 1px  rgba(64, 130, 192, 0.568);
+}
+.calllink{
+  text-decoration: none;
+  
+}
+.calllink :hover{
+  background-color: rgba(64, 130, 192, 0.568) ;
+  transition: all 0.6s ease;
 }
 .leavebtn {
   margin-top: 20px;
